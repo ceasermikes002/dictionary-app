@@ -133,7 +133,7 @@ const ExpandableCard: React.FC = () => {
         href="https://developer.temenos.com/uux/base.css"
         rel="stylesheet"
       />
-      <uwc-expandable-card heading="Meaning | Origin | Synonyms and more...">
+      <uwc-expandable-card heading="Part of speech | Definitions | Examples">
         <uwc-text variant="body">
           {meanings.map((meaning: any, index: number) => (
             <div key={index} className="mb-6">
