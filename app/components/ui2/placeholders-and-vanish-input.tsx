@@ -40,6 +40,7 @@ export function PlaceholdersAndVanishInput({
       }
       document.removeEventListener("visibilitychange", handleVisibilityChange);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [placeholders]);
 
   const canvasRef = useRef<HTMLCanvasElement>(null);
