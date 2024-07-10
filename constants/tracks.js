@@ -1,6 +1,7 @@
-export const tracks = [
+export const    tracks = [
     {
-      url: "//ssl.gstatic.com/dictionary/static/sounds/20200429/hello--_gb_1.mp3",
+      url: "https://api.dictionaryapi.dev/media/pronunciations/en/sand-us.mp3"
+,
       title: "Hello",
       tags: ["house"],
     },

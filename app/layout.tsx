@@ -16,10 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
       <body className={libreFranklin.className}>{children}</body>
-      <script src="/uux/unified-ux-web.min.js" />
-      </head>
+      <script src="/uux/unified-ux-web.min.js" async/>
     </html>
   );
 }
